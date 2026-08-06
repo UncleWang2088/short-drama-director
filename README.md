@@ -60,7 +60,7 @@
 | **红果审剧本** | 🐙 开源后改造 · 原仓库 [`Vi7QY/screenwriter-skill`](https://github.com/Vi7QY/screenwriter-skill)（MIT · 元贞智影团队） | 审稿与改稿：第一集生死线、爽感兑现、合规红线 | `skills/screenwriter-skill/` |
 | **cinema-dna-21x9x3** | 🐙 开源后改造 · 原仓库 [`guorui784/cinema-dna-21x9x3`](https://github.com/guorui784/cinema-dna-21x9x3) | 21:9 三联叙事镜头 / 3:4 竖版主题海报提示词 | `skills/cinema-dna-21x9x3/` |
 | **Seedance25提示词全流程** | 📖 基于即梦官方《Seedance 2.5 使用手册》整理 | 勾选式提示词生成（全类型） | `skills/Seedance25提示词全流程/` |
-| **fafajing-prompt-writer** | ✍️ 社区贡献版 · MiniMax H3 提示词生成（full-reference 六段结构） | H3 平台视频提示词（含参考图铁律：仅引资产库、编号独立重编） | `skills/fafajing-prompt-writer/` |
+| **fafajing-prompt-writer** | ✍️ 群友 fafa 贡献 · MiniMax H3 提示词生成（full-reference 六段结构） | H3 平台视频提示词（含参考图铁律：仅引资产库、编号独立重编） | `skills/fafajing-prompt-writer/` |
 | **导演思维** | ✍️ 本地自研 · 电影工业方法论 | 剧本转镜头级分镜表 | `skills/导演思维/` |
 | **AI图片资产生成** | ✍️ 本地自研 · 含 Cinema DNA 电影质感模式 | 视觉资产生成提示词 | `skills/AI图片资产生成/` |
 | **王叔微表情提示词** | ✍️ 本地自研 · FACS 微表情表演码 | 特写/复杂情绪镜头的表演提示词 | `skills/王叔微表情提示词/` |
