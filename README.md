@@ -49,30 +49,40 @@
 | 存LIBTV/进画布/存画布 | libtv CLI | 画布链接（每提示词独立 text 节点） |
 | 电影感图/三联图/海报/封面 | cinema-dna-21x9x3 | 21:9 三联镜头 / 3:4 竖版主题海报提示词 |
 
-## 依赖技能（需配合安装）
+## 依赖技能（本仓库已内置 ✅）
 
-本专家依赖以下 WorkBuddy 技能，缺一不可。下表标注了每个技能的**真实出处**——其中 **3 个为开源下载后本地改造**（附原仓库），其余为本地自研/基于官方资料整理：
+本专家依赖 7 个技能，**已全部打包在本仓库 `skills/` 目录内**，clone 后开箱即用。下表标注了每个技能的**真实出处**——3 个为开源下载后本地改造（附原仓库），4 个为本地自研/基于官方资料整理：
 
-| 技能 | 出处 / 来源 | 用途 | 本地路径（WorkBuddy Skills 目录） |
-|------|------------|------|----------------------------------|
-| **微短剧创作** | 🐙 开源下载后改造 · 原仓库 [`0xsline/short-drama`](https://github.com/0xsline/short-drama)（MIT · 934★ · 2026-03 创建） | 剧本全流程创作（选题→分集→逐集，50-100集） | `~/.workbuddy/skills/微短剧创作/` |
-| **红果审剧本** | 🐙 开源下载后改造 · 原仓库 [`Vi7QY/screenwriter-skill`](https://github.com/Vi7QY/screenwriter-skill)（MIT · 43★ · 元贞智影团队开发 · 2026-04 创建） | 审稿与改稿：第一集生死线、爽感兑现、信息前置、合规红线 | `~/.workbuddy/skills/screenwriter-skill/` |
-| **cinema-dna-21x9x3** | 🐙 开源下载后改造 · 原仓库 [`guorui784/cinema-dna-21x9x3`](https://github.com/guorui784/cinema-dna-21x9x3)（无 LICENSE · 2026-07 创建） | 21:9 三联叙事镜头 / 3:4 竖版主题海报提示词 | `~/.workbuddy/skills/cinema-dna-21x9x3/` |
-| **Seedance25提示词全流程** | 📖 基于即梦官方《Seedance 2.5 使用手册》整理的自研技能 | 勾选式提示词生成（全类型） | `~/.workbuddy/skills/Seedance25提示词全流程/` |
-| **导演思维** | ✍️ 本地自研 · 电影工业方法论（Murch 剪辑六规则/景别体系/运镜体系/表演心理学） | 剧本转镜头级分镜表 | `~/.workbuddy/skills/导演思维/` |
-| **AI图片资产生成** | ✍️ 本地自研 · 含 Cinema DNA 电影质感模式 | 视觉资产生成提示词（MJ/即梦/香蕉/Image） | `~/.workbuddy/skills/AI图片资产生成/` |
-| **王叔微表情提示词** | ✍️ 本地自研（原名 wangshu-seedance-prompt-generator）· FACS 微表情表演码 | 特写/复杂情绪镜头的表演提示词 | `~/.workbuddy/skills/王叔微表情提示词/` |
+| 技能 | 出处 / 来源 | 用途 | 仓库内位置 |
+|------|------------|------|-----------|
+| **微短剧创作** | 🐙 开源后改造 · 原仓库 [`0xsline/short-drama`](https://github.com/0xsline/short-drama)（MIT · 934★） | 剧本全流程创作（选题→分集→逐集，50-100集） | `skills/微短剧创作/` |
+| **红果审剧本** | 🐙 开源后改造 · 原仓库 [`Vi7QY/screenwriter-skill`](https://github.com/Vi7QY/screenwriter-skill)（MIT · 元贞智影团队） | 审稿与改稿：第一集生死线、爽感兑现、合规红线 | `skills/screenwriter-skill/` |
+| **cinema-dna-21x9x3** | 🐙 开源后改造 · 原仓库 [`guorui784/cinema-dna-21x9x3`](https://github.com/guorui784/cinema-dna-21x9x3) | 21:9 三联叙事镜头 / 3:4 竖版主题海报提示词 | `skills/cinema-dna-21x9x3/` |
+| **Seedance25提示词全流程** | 📖 基于即梦官方《Seedance 2.5 使用手册》整理 | 勾选式提示词生成（全类型） | `skills/Seedance25提示词全流程/` |
+| **导演思维** | ✍️ 本地自研 · 电影工业方法论 | 剧本转镜头级分镜表 | `skills/导演思维/` |
+| **AI图片资产生成** | ✍️ 本地自研 · 含 Cinema DNA 电影质感模式 | 视觉资产生成提示词 | `skills/AI图片资产生成/` |
+| **王叔微表情提示词** | ✍️ 本地自研 · FACS 微表情表演码 | 特写/复杂情绪镜头的表演提示词 | `skills/王叔微表情提示词/` |
 
-> **注意**：以上 7 个技能均为用户级技能（`~/.workbuddy/skills/`），本仓库只包含专家本体，**不含技能内容**。安装本专家后，需将上述技能一并放入对方的 `~/.workbuddy/skills/` 目录才能跑通全流程。
->
-> **版权声明**：3 个开源技能按各自 LICENSE 条款使用（微短剧创作/红果审剧本为 MIT），已在原仓库基础上进行本地改造，改造版本仅本地使用、不随本仓库分发。
+> **版权声明**：3 个开源技能按各自 LICENSE 条款使用（微短剧创作/红果审剧本为 MIT），改造版随本仓库以原 LICENSE 一同分发；`cinema-dna-21x9x3` 原仓库无 LICENSE，保留原作者信息。
 
-## 安装
+## 安装（2 步）
 
-将专家包目录放到专家目录下：
+### 第 1 步：把 7 个技能放进 Skills 目录
+
+把本仓库 `skills/` 下的 **7 个文件夹**全部复制到：
 
 ```
-C:\Users\Administrator\.workbuddy\plugins\marketplaces\my-experts\plugins\short-drama-director/
+~/.workbuddy/skills/
+```
+
+（即 `skills/微短剧创作` → `~/.workbuddy/skills/微短剧创作`，其余同理）
+
+### 第 2 步：把专家包放进专家目录
+
+把本仓库的 `short-drama-director` 文件夹（即 `.codebuddy-plugin` + `agents` + `avatars`）复制到：
+
+```
+~/.workbuddy/plugins/marketplaces/my-experts/plugins/
 ```
 
 然后运行注册命令使其可见：
@@ -80,6 +90,8 @@ C:\Users\Administrator\.workbuddy\plugins\marketplaces\my-experts\plugins\short-
 ```bash
 python3 scripts/register_expert.py <expert-dir>
 ```
+
+重启 WorkBuddy，对话里说 **"帮我导演一部短剧"** 即可使用。
 
 ## 使用示例
 
