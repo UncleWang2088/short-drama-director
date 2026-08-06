@@ -51,19 +51,21 @@
 
 ## 依赖技能（需配合安装）
 
-本专家依赖以下 WorkBuddy 技能，缺一不可。下表标注了每个技能的**出处**（作者/来源）与本地安装路径：
+本专家依赖以下 WorkBuddy 技能，缺一不可。下表标注了每个技能的**真实出处**——其中 **3 个为开源下载后本地改造**（附原仓库），其余为本地自研/基于官方资料整理：
 
-| 技能 | 出处 / 作者 | 用途 | 本地路径（WorkBuddy Skills 目录） |
+| 技能 | 出处 / 来源 | 用途 | 本地路径（WorkBuddy Skills 目录） |
 |------|------------|------|----------------------------------|
-| **微短剧创作** | 王叔自研 · 基于爆款短剧工业方法论（爽点矩阵/节奏曲线/钩子设计/付费卡点） | 剧本全流程创作（选题→分集→逐集，50-100集） | `~/.workbuddy/skills/微短剧创作/` |
-| **红果审剧本** | 内容负责人 (Content Director) · 头部平台 5 年 + Yuanzhen Pictures 实战方法论（v2.0） | 审稿与改稿：第一集生死线、爽感兑现、信息前置、合规红线 | `~/.workbuddy/skills/screenwriter-skill/` |
-| **导演思维** | 王叔自研 · 电影工业方法论（Murch 剪辑六规则/景别体系/运镜体系/表演心理学） | 剧本转镜头级分镜表 | `~/.workbuddy/skills/导演思维/` |
-| **AI图片资产生成** | 王叔自研 · 含 Cinema DNA 电影质感模式 | 视觉资产生成提示词（MJ/即梦/香蕉/Image） | `~/.workbuddy/skills/AI图片资产生成/` |
-| **Seedance25提示词全流程** | 王叔自研 · 基于即梦 Seedance 2.5 官方使用手册的公式化体系 | 勾选式提示词生成（全类型） | `~/.workbuddy/skills/Seedance25提示词全流程/` |
-| **王叔微表情提示词** | 王叔自研 · FACS 微表情表演码（AU 编码 + 压制层/泄漏层三层结构） | 特写/复杂情绪镜头的表演提示词 | `~/.workbuddy/skills/王叔微表情提示词/` |
-| **cinema-dna-21x9x3** | 王叔自研 · Cinema DNA 方法论（v1.2.2） | 21:9 三联叙事镜头 / 3:4 竖版主题海报提示词 | `~/.workbuddy/skills/cinema-dna-21x9x3/` |
+| **微短剧创作** | 🐙 开源下载后改造 · 原仓库 [`0xsline/short-drama`](https://github.com/0xsline/short-drama)（MIT · 934★ · 2026-03 创建） | 剧本全流程创作（选题→分集→逐集，50-100集） | `~/.workbuddy/skills/微短剧创作/` |
+| **红果审剧本** | 🐙 开源下载后改造 · 原仓库 [`Vi7QY/screenwriter-skill`](https://github.com/Vi7QY/screenwriter-skill)（MIT · 43★ · 元贞智影团队开发 · 2026-04 创建） | 审稿与改稿：第一集生死线、爽感兑现、信息前置、合规红线 | `~/.workbuddy/skills/screenwriter-skill/` |
+| **cinema-dna-21x9x3** | 🐙 开源下载后改造 · 原仓库 [`guorui784/cinema-dna-21x9x3`](https://github.com/guorui784/cinema-dna-21x9x3)（无 LICENSE · 2026-07 创建） | 21:9 三联叙事镜头 / 3:4 竖版主题海报提示词 | `~/.workbuddy/skills/cinema-dna-21x9x3/` |
+| **Seedance25提示词全流程** | 📖 基于即梦官方《Seedance 2.5 使用手册》整理的自研技能 | 勾选式提示词生成（全类型） | `~/.workbuddy/skills/Seedance25提示词全流程/` |
+| **导演思维** | ✍️ 本地自研 · 电影工业方法论（Murch 剪辑六规则/景别体系/运镜体系/表演心理学） | 剧本转镜头级分镜表 | `~/.workbuddy/skills/导演思维/` |
+| **AI图片资产生成** | ✍️ 本地自研 · 含 Cinema DNA 电影质感模式 | 视觉资产生成提示词（MJ/即梦/香蕉/Image） | `~/.workbuddy/skills/AI图片资产生成/` |
+| **王叔微表情提示词** | ✍️ 本地自研（原名 wangshu-seedance-prompt-generator）· FACS 微表情表演码 | 特写/复杂情绪镜头的表演提示词 | `~/.workbuddy/skills/王叔微表情提示词/` |
 
 > **注意**：以上 7 个技能均为用户级技能（`~/.workbuddy/skills/`），本仓库只包含专家本体，**不含技能内容**。安装本专家后，需将上述技能一并放入对方的 `~/.workbuddy/skills/` 目录才能跑通全流程。
+>
+> **版权声明**：3 个开源技能按各自 LICENSE 条款使用（微短剧创作/红果审剧本为 MIT），已在原仓库基础上进行本地改造，改造版本仅本地使用、不随本仓库分发。
 
 ## 安装
 
