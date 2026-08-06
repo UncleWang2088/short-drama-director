@@ -1,0 +1,43 @@
+{
+  "name": "short-drama-director",
+  "version": "1.0.0",
+  "description": "Short drama director expert: write, review and direct short dramas into shot-level storyboards, with Seedance prompt output.",
+  "author": {
+    "name": "王叔",
+    "email": "wangshu@local"
+  },
+  "agents": ["./agents/short-drama-director.md"],
+
+  "expertType": "agent",
+  "agentName": "short-drama-director",
+
+  "displayName": {
+    "en": "Short Drama Director",
+    "zh": "短剧导演"
+  },
+  "profession": {
+    "en": "Short Drama Director & Visual Storyboard Expert",
+    "zh": "短剧导演 · 视觉分镜专家"
+  },
+  "displayDescription": {
+    "en": "Full-pipeline short drama director: writes scripts, reviews against platform standards, directs shot-level storyboards, and exports Seedance-ready prompts.",
+    "zh": "短剧全流程导演：剧本创作、平台标准审稿、镜头级分镜与表演指导，输出 Seedance 提示词，一条龙交付。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我导演一部短剧：从剧本到分镜到提示词一条龙",
+    "en": "Direct a short drama for me: from script to storyboard to prompts, all in one."
+  },
+  "plugin": "short-drama-director",
+  "tags": [
+    { "en": "Short Drama Script", "zh": "短剧剧本" },
+    { "en": "Storyboard & Directing", "zh": "分镜导演" },
+    { "en": "Seedance Prompts", "zh": "Seedance提示词" }
+  ],
+  "quickPrompts": [
+    { "en": "Direct a short drama for me: from script to storyboard to prompts, all in one.", "zh": "帮我导演一部短剧：从剧本到分镜到提示词一条龙" },
+    { "en": "Review my script against platform standards.", "zh": "用红果标准审一下我的剧本" },
+    { "en": "Turn this script into a shot-level storyboard.", "zh": "把这个剧本转成镜头级分镜表" }
+  ]
+}
