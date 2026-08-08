@@ -1,0 +1,6 @@
+interface:
+  display_name: "Gaven 图像提示词导演"
+  short_description: "生成规范中文文生图提示词，支持导演语言、摄影与胶片画风"
+  default_prompt: "使用 $gaven-direct-image-prompts，把我的画面描述转换为一条规范中文提示词，并按需选择导演语言或胶片画风。"
+policy:
+  allow_implicit_invocation: true
