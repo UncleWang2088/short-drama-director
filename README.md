@@ -67,7 +67,7 @@
 | 技能 | 出处 / 来源 | 用途 | 仓库内位置 |
 |------|------------|------|-----------|
 | **微短剧创作** | 🐙 开源后改造 · 原仓库 [`0xsline/short-drama`](https://github.com/0xsline/short-drama)（MIT · 934★） | 剧本全流程创作（选题→分集→逐集，50-100集） | `skills/微短剧创作/` |
-| **红果审剧本** | 🐙 开源后改造 · 原仓库 [`Vi7QY/screenwriter-skill`](https://github.com/Vi7QY/screenwriter-skill)（MIT · 元贞智影团队） | 审稿与改稿：第一集生死线、爽感兑现、合规红线 | `skills/screenwriter-skill/` |
+| **红果审剧本** | 🐙 开源后改造 · 原仓库 [`Vi7QY/screenwriter-skill`](https://github.com/Vi7QY/screenwriter-skill)（MIT · 元贞智影团队） | 审稿与改稿：第一集生死线、爽感兑现、合规红线 | `skills/红果审剧本/` |
 | **cinema-dna-21x9x3** | 🐙 开源后改造 · 原仓库 [`guorui784/cinema-dna-21x9x3`](https://github.com/guorui784/cinema-dna-21x9x3) | 21:9 三联叙事镜头 / 3:4 竖版主题海报提示词 | `skills/cinema-dna-21x9x3/` |
 | **Seedance25提示词全流程** | 📖 基于即梦官方《Seedance 2.5 使用手册》整理 | 勾选式提示词生成（全类型） | `skills/Seedance25提示词全流程/` |
 | **fafajing-prompt-writer** | ✍️ 群友 fafa 贡献 · MiniMax H3 提示词生成（full-reference 六段结构） | H3 平台视频提示词（含参考图铁律：仅引资产库、编号独立重编） | `skills/fafajing-prompt-writer/` |
